@@ -11,9 +11,9 @@ public class Artista
         FotoPerfil = "https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_1280.png";
     }
 
-    public string Nome { get; set; }
-    public string FotoPerfil { get; set; }
-    public string Bio { get; set; }
+    public string Nome { get; set; } = String.Empty;
+    public string FotoPerfil { get; set; } = String.Empty;
+    public string Bio { get; set; } = String.Empty;
     public int Id { get; set; }
 
     public void AdicionarMusica(Musica musica)
